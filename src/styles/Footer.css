@@ -1,0 +1,9 @@
+.footer {
+    background-color: #31473A; /* Dark green */
+    color: #FFFFFF; /* White text */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+  }
+  

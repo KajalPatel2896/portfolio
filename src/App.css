@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* App container with flex layout to ensure proper structure */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Content to take the available space between the Navbar and Footer */
+.content {
+  flex: 1;
+}

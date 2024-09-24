@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #31473A; /* Dark green */
+    padding: 15px 20px;
+}
+.navbar .nav{
+    background-color: #31473A;   
+}
+.logo {
+    color: #FFFFFF; /* White text */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo img{
+    width: 54px;
+}
+
+.nav {
+    display: flex; /* Display links in a row */
+}
+
+.nav a {
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    margin-left: 20px; /* Space between links */
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #EDF4F2; /* Light green on hover */
+}

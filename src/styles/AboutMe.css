@@ -1,0 +1,56 @@
+.about-container {
+    padding: 60px 40px;
+    background-color: #EDF4F2; /* Light green background */
+    text-align: center;
+}
+
+.about-container h1{
+    color: #31473A;
+    margin-top : 0;
+    margin-bottom: 35px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+}
+
+.profile-image {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    border-radius: 50%; /* Make it a circle */
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.about-text {
+    color: #31473A; /* Dark green text */
+}
+
+.about-text h2 {
+    margin: 10px 0;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.resume-link {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #31473A; /* Dark green button */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    BORDER: 1PX SOLID;
+}
+
+.resume-link:hover {
+    background-color: #EDF4F2; /* Light green hover */
+    color: #31473A;
+    BORDER: 1PX SOLID;
+}

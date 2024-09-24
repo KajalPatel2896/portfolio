@@ -1,0 +1,80 @@
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 35px;
+    background-color: #EDF4F2; /* Light green background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #31473A; /* Dark green text */
+    margin: 0;
+    padding: 20px 0;
+}
+
+.contact-info {
+    background-color: #FFFFFF; /* White background for the contact info panel */
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin: 0 0 10px;
+    color: #31473A; /* Dark green text */
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #31473A; /* Dark green text */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Use full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: none;
+    color: #000;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #31473A; /* Dark green border on focus */
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #31473A; /* Dark green button */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #EDF4F2; /* Light green hover */
+    color: #31473A;
+}
+
+.contact-info p {
+    color: #31473A;
+}
